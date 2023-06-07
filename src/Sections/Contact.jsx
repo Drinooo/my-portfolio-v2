@@ -1,4 +1,4 @@
-import { Box, Container, Grid } from "@mui/material";
+import { Box, Container, Grid, Stack } from "@mui/material";
 import React from "react";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
@@ -13,8 +13,9 @@ import { ContactTypo } from "../MuiComponents/Typography";
 export const Contact = () => {
   return (
     <Container maxWidth="xl">
+      <Stack gap={'60px'}>
       <ContactTypo variant={"h2"} color={"secondary"}>
-        Contact
+        Contact Me
       </ContactTypo>
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={2} columns={16}>
@@ -123,6 +124,7 @@ export const Contact = () => {
           </Grid>
         </Grid>
       </Box>
+      </Stack>
     </Container>
   );
 };

@@ -22,7 +22,7 @@ const Item = styled(Paper)(({ theme }) => ({
 export const Tools = () => {
   return (
     <Container maxWidth="xl">
-      <Stack gap={'60px'}>
+      <Stack gap={'60px'} alignItems={'center'}>
       <ToolsTypo variant={"h2"}>
       <span>My </span><span style={{ color: '#D6412B' }}>Tech Stack</span>
       </ToolsTypo>

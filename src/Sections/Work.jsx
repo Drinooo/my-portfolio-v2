@@ -6,7 +6,7 @@ import { CustTimeline } from "../MuiComponents/Timeline";
 export const Work = () => {
   return (
     <Container maxWidth="xl">
-      <Stack gap={"60px"}>
+      <Stack gap={"60px"} alignItems={'center'}>
         <WorkTypo variant={"h2"}>
           <span>My </span><span style={{ color: '#D6412B' }}>Work Experience</span>
         </WorkTypo>

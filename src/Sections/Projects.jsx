@@ -5,7 +5,7 @@ import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import { CustGrid } from "../MuiComponents/Grid";
-import { Container } from "@mui/material";
+import { Container, Stack } from "@mui/material";
 import { ProjectsTypo } from "../MuiComponents/Typography";
 import { theme } from "../MuiComponents/ThemeProvider";
 
@@ -50,6 +50,7 @@ export const Projects = () => {
   };
   return (
     <Container maxWidth="xl">
+      <Stack gap={"60px"} alignItems={'center'}>
       <ProjectsTypo variant={"h2"}>
         <span>My </span>
         <span style={{ color: "#D6412B" }}>Projects</span>
@@ -83,6 +84,7 @@ export const Projects = () => {
           Web Development
         </TabPanel>
       </Box>
+      </Stack>
     </Container>
   );
 };

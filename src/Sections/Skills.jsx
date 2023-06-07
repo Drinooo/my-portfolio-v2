@@ -28,7 +28,7 @@ const Item = styled(Paper)(({ theme }) => ({
 export const Skills = () => {
   return (
     <Container maxWidth="xl">
-      <Stack gap={"60px"}>
+      <Stack gap={"60px"} alignItems={'center'}>
         <SkillsTypo variant={"h2"}>
           <span>My </span>
           <span style={{ color: "#D6412B" }}>Skills</span>

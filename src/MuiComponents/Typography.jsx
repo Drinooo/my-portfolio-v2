@@ -45,7 +45,7 @@ export const SkillsTypo = ({ variant, children, color }) => {
 export const ToolsTypo = ({ variant, children, color }) => {
   return (
     <ThemeProvider theme={theme}>
-      <Typography variant={variant} color={color} sx={{ textAlign: "center" }}>{children}</Typography>
+      <Typography variant={variant} color={color}>{children}</Typography>
     </ThemeProvider>
   );
 };

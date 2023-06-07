@@ -75,7 +75,7 @@ export const CustAppBar = (props) => {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="inherit"
+              color="tertiary"
             >
               <MenuIcon />
             </IconButton>

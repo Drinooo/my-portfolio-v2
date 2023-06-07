@@ -5,7 +5,7 @@ import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
-import { BootstrapIcon, CSSIcon, GithubIcon, HTMLIcon, IonicIcon, JavaScriptIcon, MUIIcon, ReactIcon, ViteIcon } from "../MuiComponents/Icons";
+import { BootstrapIcon, CSSIcon, CanvaIcon, FigmaIcon, GithubIcon, HTMLIcon, IllustratorIcon, IonicIcon, JavaScriptIcon, MUIIcon, PhotoshopIcon, ReactIcon, VSCodeIcon, ViteIcon, XDIcon } from "../MuiComponents/Icons";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -75,17 +75,32 @@ export const Tools = () => {
         </Grid>
         <Grid item xs={4}>
           <Item>
-           
+           <FigmaIcon />
           </Item>
         </Grid>
         <Grid item xs={4}>
           <Item>
-            
+            <XDIcon />
           </Item>
         </Grid>
         <Grid item xs={4}>
           <Item>
-            
+            <PhotoshopIcon />
+          </Item>
+        </Grid>
+        <Grid item xs={4}>
+          <Item>
+           <IllustratorIcon />
+          </Item>
+        </Grid>
+        <Grid item xs={4}>
+          <Item>
+            <CanvaIcon />
+          </Item>
+        </Grid>
+        <Grid item xs={4}>
+          <Item>
+            <VSCodeIcon />
           </Item>
         </Grid>
         </Grid>

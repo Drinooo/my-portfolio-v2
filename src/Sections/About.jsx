@@ -27,7 +27,7 @@ export const About = () => {
               gap: '30px' 
             }}>
             <AboutTypo variant={'h2'} color={'secondary'}>About</AboutTypo>
-            <AboutTypo variant={'body1'}>Lorem ipsum dolor sit amet consectetur. Tellus purus enim sagittis id sed. Scelerisque tellus amet malesuada ac ipsum. Mi varius orci nisl praesent vitae sed eu sed. Bibendum varius interdum nunc purus. Maecenas ipsum ipsum malesuada pretium ullamcorper ornare urna. Id sapien eleifend nunc quam. Vulputate purus aenean pellentesque massa velit viverra. Interdum feugiat ultricies amet faucibus cras justo tortor. Eget amet cursus at venenatis mattis.</AboutTypo>
+            <AboutTypo variant={'body1'}>Hi there! I'm a web designer based in the Philippines. I'm passionate about crafting visually appealing and user-friendly websites. With a strong foundation in design principles, I'm eager to bring fresh perspectives to each project I undertake. My goal is to create engaging web experiences that seamlessly blend aesthetics with functionality. Let's collaborate to bring your vision to life and create an impactful online presence.</AboutTypo>
             <CustButton variant={'contained'} />
           </Grid>
         </Grid>

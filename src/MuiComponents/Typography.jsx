@@ -2,7 +2,7 @@ import { ThemeProvider, Typography } from "@mui/material";
 import React from "react";
 import { theme } from "./ThemeProvider";
 
-export const HeroTypo = ({ variant, children, color }) => {
+export const HeroTypo = ({ variant, children, color, animate }) => {
   return (
     <ThemeProvider theme={theme}>
       <Typography variant={variant} color={color} sx={{ textAlign: "center" }}>{children}</Typography>
@@ -37,7 +37,7 @@ export const ProjectsTypo = ({ variant, children, color }) => {
 export const SkillsTypo = ({ variant, children, color }) => {
   return (
     <ThemeProvider theme={theme}>
-      <Typography variant={variant} color={color} sx={{ textAlign: "center" }}>{children}</Typography>
+      <Typography variant={variant} color={color}>{children}</Typography>
     </ThemeProvider>
   );
 };

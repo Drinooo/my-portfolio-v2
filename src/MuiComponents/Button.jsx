@@ -20,22 +20,3 @@ export const CustButton = ({variant}) => {
     </>
   );
 };
-
-export const CustButton1 = ({variant}) => {
-  return (
-    <>
-      <ThemeProvider theme={theme}>
-        <Button 
-          variant={variant}
-          color='tertiary'
-          sx={{ 
-            padding: '20px 50px',
-            borderRadius: '10px'
-           }}
-        >
-            UI/UX Designer
-        </Button>
-      </ThemeProvider>
-    </>
-  );
-};

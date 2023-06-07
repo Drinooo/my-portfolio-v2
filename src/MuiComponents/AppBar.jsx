@@ -57,7 +57,7 @@ export const CustAppBar = () => {
               textDecoration: "none",
             }}
           >
-            {/* <img href="av 1.png" alt="" srcset="" /> */}
+            <img href="av 1.png" alt="" srcset="" />
             <img src="av 1.png" alt="" srcset="" />
           </Typography>
 

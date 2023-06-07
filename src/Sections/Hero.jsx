@@ -48,7 +48,8 @@ export const Hero = () => {
             </HeroTypo>
           </Paper>
         </Box>
-        <img src="src/assets/Hero Image.png" alt="" />
+        <img href="hero image.png" alt="" srcset="" />
+        <img src="hero image.png" alt="" srcset="" />
       </Container>
     </>
   );

@@ -120,7 +120,8 @@ export const CustAppBar = (props) => {
               textDecoration: "none",
             }}
           >
-            <img src="src/assets/AV 1.png" />
+            <img href="av 1.png" alt="" srcset="" />
+            <img src="av 1.png" alt="" srcset="" />
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" }, justifyContent: 'center', gap: '60px' }}>
             {pages.map((page) => (

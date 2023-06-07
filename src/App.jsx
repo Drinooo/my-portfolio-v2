@@ -15,6 +15,7 @@ import { Skills } from "./Sections/Skills";
 import { Tools } from "./Sections/Tools";
 import { Contact } from "./Sections/Contact";
 import { theme } from "./MuiComponents/ThemeProvider";
+import { Footer } from "./Sections/Footer";
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
           <Skills />
           <Tools />
           <Contact />
+          <Footer />
         </Stack>
       </ThemeProvider>
     </>

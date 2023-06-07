@@ -58,6 +58,7 @@ export const CustAppBar = () => {
             }}
           >
             <img src="src/assets/AV 1.png" />
+            <img src="../src/assets/AV 1.png" alt="" srcset="" />
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>

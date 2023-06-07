@@ -12,7 +12,7 @@ export const Hero = () => {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          backgroundImage: `url(http://localhost:5173/Hero%20Section.png)`,
+          backgroundImage: `url(Hero%20Section.png)`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
         }}

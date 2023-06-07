@@ -73,8 +73,18 @@ export const theme = createTheme({
       lineHeight: "240%",
       color: '#FFF'
     },
-    subtitle1: {},
-    subtitle2: {},
+    subtitle1: {
+      fontFamily: 'Barlow, sans-serif',
+      fontSize: "22px",
+      fontStyle: "normal",
+      fontWeight: 700,
+    },
+    subtitle2: {
+      fontFamily: 'Barlow, sans-serif',
+      fontSize: "18px",
+      fontStyle: "normal",
+      fontWeight: 700,
+    },
     body1: {
       fontFamily: 'Barlow, sans-serif',
       fontSize: "24px",
@@ -89,7 +99,6 @@ export const theme = createTheme({
       fontStyle: "normal",
       fontWeight: 400,
       lineHeight: "150%",
-      color: '#FFF'
     },
     button: {
       fontFamily: 'Barlow, sans-serif',

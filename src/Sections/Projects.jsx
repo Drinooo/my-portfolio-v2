@@ -6,6 +6,8 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import { CustGrid } from "../MuiComponents/Grid";
 import { Container } from "@mui/material";
+import { ProjectsTypo } from "../MuiComponents/Typography";
+import { theme } from "../MuiComponents/ThemeProvider";
 
 const TabPanel = (props) => {
   const { children, value, index, ...other } = props;
@@ -47,13 +49,19 @@ export const Projects = () => {
     setValue(newValue);
   };
   return (
-    <Container maxWidth='xl'>
+    <Container maxWidth="xl">
+      <ProjectsTypo variant={"h2"}>
+        <span>My </span>
+        <span style={{ color: "#D6412B" }}>Projects</span>
+      </ProjectsTypo>
       <Box sx={{ width: "100%" }}>
         <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
           <Tabs
             value={value}
             onChange={handleChange}
             aria-label="basic tabs example"
+            textColor="secondary"
+            indicatorColor="secondary"
             centered
           >
             <Tab label="Web Design" {...a11yProps(0)} />

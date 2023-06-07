@@ -6,6 +6,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import WorkIcon from "@mui/icons-material/Work";
 import SchoolIcon from "@mui/icons-material/School";
+import { WorkTypo } from "./Typography";
 
 export const CustTimeline = () => {
   return (
@@ -19,11 +20,11 @@ export const CustTimeline = () => {
         iconStyle={{ background: "#D6412B", color: "#fff" }}
         icon={<WorkIcon />}
       >
-        <h3 className="vertical-timeline-element-title">Web Designer</h3>
-        <h4 className="vertical-timeline-element-subtitle">
+        <WorkTypo variant={'subtitle1'} className="vertical-timeline-element-title">Web Designer</WorkTypo>
+        <WorkTypo variant={'subtitle2'} className="vertical-timeline-element-subtitle">
           New Media Services Philippines
-        </h4>
-        <p>Web Designer, UI/UX Designer, Front End Developer</p>
+        </WorkTypo>
+        <WorkTypo variant={'body2'}>Web Designer, UI/UX Designer, Front End Developer</WorkTypo>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
@@ -31,13 +32,13 @@ export const CustTimeline = () => {
         iconStyle={{ background: "#D6412B", color: "#fff" }}
         icon={<WorkIcon />}
       >
-        <h3 className="vertical-timeline-element-title">
+        <WorkTypo variant={'subtitle1'} color={'black'} className="vertical-timeline-element-title">
           OJT/Internship (486 hours)
-        </h3>
-        <h4 className="vertical-timeline-element-subtitle">
+        </WorkTypo>
+        <WorkTypo variant={'subtitle2'} color={'black'} className="vertical-timeline-element-subtitle">
           Ollopa Corporation
-        </h4>
-        <p>Data Entry, Quality Assurance</p>
+        </WorkTypo>
+        <WorkTypo variant={'body2'} color={'black'}>Data Entry, Quality Assurance</WorkTypo>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
@@ -45,11 +46,11 @@ export const CustTimeline = () => {
         iconStyle={{ background: "#D6412B", color: "#fff" }}
         icon={<WorkIcon />}
       >
-        <h3 className="vertical-timeline-element-title">
+        <WorkTypo variant={'subtitle1'} color={'black'} className="vertical-timeline-element-title">
           Freelance Graphic Designer
-        </h3>
-        <h4 className="vertical-timeline-element-subtitle">Homebased</h4>
-        <p>Graphic Designer</p>
+        </WorkTypo >
+        <WorkTypo variant={'subtitle2'} color={'black'} className="vertical-timeline-element-subtitle">Homebased</WorkTypo>
+        <WorkTypo variant={'body2'} color={'black'}>Graphic Designer</WorkTypo>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
@@ -57,13 +58,13 @@ export const CustTimeline = () => {
         iconStyle={{ background: "#18242F", color: "#fff" }}
         icon={<SchoolIcon />}
       >
-        <h3 className="vertical-timeline-element-title">
+        <WorkTypo variant={'subtitle1'} color={'black'} className="vertical-timeline-element-title">
           Bachelor of Science In Information Technology
-        </h3>
-        <h4 className="vertical-timeline-element-subtitle">
+        </WorkTypo >
+        <WorkTypo variant={'subtitle2'} color={'black'} className="vertical-timeline-element-subtitle">
           Lyceum of Subic Bay
-        </h4>
-        <p>Web Development, System Development, UI/UX Design, Grpahic Design</p>
+        </WorkTypo>
+        <WorkTypo variant={'body2'} color={'black'}>Web Development, System Development, UI/UX Design, Grpahic Design</WorkTypo>
       </VerticalTimelineElement>
     </VerticalTimeline>
   );

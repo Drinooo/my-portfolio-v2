@@ -5,6 +5,7 @@ import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
+import { BootstrapIcon, CSSIcon, GithubIcon, HTMLIcon, IonicIcon, JavaScriptIcon, MUIIcon, ReactIcon, ViteIcon } from "../MuiComponents/Icons";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -29,62 +30,62 @@ export const Tools = () => {
         <Grid container spacing={'20px'} columns={16} rowSpacing={'20px'}>
           <Grid item xs={4}>
             <Item>
-              <img src="src/assets/Html5.png" alt="" />
+              <HTMLIcon />
             </Item>
           </Grid>
           <Grid item xs={4}>
             <Item>
-              <img src="src/assets/Css3.png" alt="" />
+              <CSSIcon />
             </Item>
           </Grid>
           <Grid item xs={4}>
             <Item>
-              <img src="src/assets/javascript.png" alt="" />
+              <JavaScriptIcon />
             </Item>
           </Grid>
           <Grid item xs={4}>
             <Item>
-              <img src="src/assets/Bootstrap.png" alt="" />
+              <BootstrapIcon />
             </Item>
           </Grid>
           <Grid item xs={4}>
             <Item>
-              <img src="src/assets/Ionic.png" alt="" />
+              <ReactIcon />
             </Item>
           </Grid>
           <Grid item xs={4}>
             <Item>
-              <img src="src/assets/React.png" alt="" />
+              <ViteIcon />
             </Item>
           </Grid>
           <Grid item xs={4}>
             <Item>
-              <img src="src/assets/image 4.png" alt="" />
+              <IonicIcon />
             </Item>
           </Grid>
           <Grid item xs={4}>
             <Item>
-              <img src="src/assets/Figma.png" alt="" />
+              <MUIIcon />
             </Item>
           </Grid>
           <Grid item xs={4}>
           <Item>
-            <img src="src/assets/Adobe Xd.png" alt="" />
+            <GithubIcon />
           </Item>
         </Grid>
         <Grid item xs={4}>
           <Item>
-            <img src="src/assets/Adobe Photoshop.png" alt="" />
+           
           </Item>
         </Grid>
         <Grid item xs={4}>
           <Item>
-            <img src="src/assets/Adobe Illustrator.png" alt="" />
+            
           </Item>
         </Grid>
         <Grid item xs={4}>
           <Item>
-            <img src="src/assets/Canva.png" alt="" />
+            
           </Item>
         </Grid>
         </Grid>

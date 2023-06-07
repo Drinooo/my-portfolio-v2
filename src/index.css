@@ -11,4 +11,7 @@ body {
 
 .vertical-timeline-element-date{
   color: white;
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
 }

@@ -21,7 +21,15 @@ export const AboutTypo = ({ variant, children, color }) => {
 export const WorkTypo = ({ variant, children, color }) => {
   return (
     <ThemeProvider theme={theme}>
-      <Typography variant={variant} color={color} sx={{ textAlign: "center" }}>{children}</Typography>
+      <Typography variant={variant} color={color}>{children}</Typography>
+    </ThemeProvider>
+  );
+};
+
+export const ProjectsTypo = ({ variant, children, color }) => {
+  return (
+    <ThemeProvider theme={theme}>
+      <Typography variant={variant} color={color}>{children}</Typography>
     </ThemeProvider>
   );
 };

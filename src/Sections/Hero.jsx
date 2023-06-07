@@ -9,8 +9,10 @@ export const Hero = () => {
       <Container maxWidth="xl"
         sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundImage: `url(http://localhost:5173/Hero%20Section.png)`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
         <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent:'center', alignItems: 'center', gap: '30px' }}>
-          <HeroTypo variant={"h1"}>Hey There, I'm</HeroTypo>
-          <HeroTypo variant={"h1"} color={'secondary'}>Aldrin Villalobos</HeroTypo>
+          <HeroTypo variant={"h1"}>Hey There,</HeroTypo>
+          <HeroTypo variant={"h1"}>
+            <span>I'm </span><span style={{ color: '#D6412B' }}>Aldrin Villalobos</span>
+          </HeroTypo>
           <CustButton1 variant={"contained"} />
         </Box>
         <img src="src/assets/Hero Image.png" alt="" />

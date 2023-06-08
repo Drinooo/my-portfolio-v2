@@ -50,40 +50,41 @@ export const Projects = () => {
   };
   return (
     <Container maxWidth="xl">
-      <Stack gap={"60px"} alignItems={'center'}>
-      <ProjectsTypo variant={"h2"}>
-        <span>My </span>
-        <span style={{ color: "#D6412B" }}>Projects</span>
-      </ProjectsTypo>
-      <Box sx={{ width: "100%" }}>
-        <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
-          <Tabs
-            value={value}
-            onChange={handleChange}
-            aria-label="basic tabs example"
-            textColor="secondary"
-            indicatorColor="secondary"
-            centered
-          >
-            <Tab label="Web Design" {...a11yProps(0)} />
-            <Tab label="UI/UX Design" {...a11yProps(1)} />
-            <Tab label="Graphic Design" {...a11yProps(2)} />
-            <Tab label="Web Development" {...a11yProps(3)} />
-          </Tabs>
+      <Stack gap={"60px"} alignItems={"center"}>
+        <ProjectsTypo variant={"h2"}>
+          <span>My </span>
+          <span style={{ color: "#D6412B" }}>Projects</span>
+        </ProjectsTypo>
+        <Box sx={{ width: "100%" }}>
+          <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+            <Tabs
+              value={value}
+              onChange={handleChange}
+              scrollButtons={false}
+              aria-label="basic tabs example"
+              textColor="secondary"
+              indicatorColor="secondary"
+              centered
+            >
+              <Tab label="Web Design" {...a11yProps(0)} />
+              <Tab label="UI/UX Design" {...a11yProps(1)} />
+              <Tab label="Graphic Design" {...a11yProps(2)} />
+              <Tab label="Web Development" {...a11yProps(3)} />
+            </Tabs>
+          </Box>
+          <TabPanel value={value} index={0}>
+            <CustGrid />
+          </TabPanel>
+          <TabPanel value={value} index={1}>
+            UI/UX Design
+          </TabPanel>
+          <TabPanel value={value} index={2}>
+            Graphic Design
+          </TabPanel>
+          <TabPanel value={value} index={3}>
+            Web Development
+          </TabPanel>
         </Box>
-        <TabPanel value={value} index={0}>
-          <CustGrid />
-        </TabPanel>
-        <TabPanel value={value} index={1}>
-          UI/UX Design
-        </TabPanel>
-        <TabPanel value={value} index={2}>
-          Graphic Design
-        </TabPanel>
-        <TabPanel value={value} index={3}>
-          Web Development
-        </TabPanel>
-      </Box>
       </Stack>
     </Container>
   );

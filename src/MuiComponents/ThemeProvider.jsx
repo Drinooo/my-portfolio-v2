@@ -147,5 +147,16 @@ export const theme = createTheme({
         lineHeight: '22.5px'
       }
     },
+    caption: {
+      fontFamily: 'Barlow, sans-serif',
+      fontSize: "25px",
+      fontStyle: "normal",
+      fontWeight: 500,
+      textTransform: "uppercase",
+      "@media (max-width:600px)": {
+        fontSize: '15px',
+        lineHeight: '22.5px'
+      }
+    }
   },
 });

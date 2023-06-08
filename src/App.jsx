@@ -16,6 +16,7 @@ import { Tools } from "./Sections/Tools";
 import { Contact } from "./Sections/Contact";
 import { theme } from "./MuiComponents/ThemeProvider";
 import { Footer } from "./Sections/Footer";
+import CTA from "./MuiComponents/CTA";
 
 const App = () => {
   return (
@@ -30,8 +31,8 @@ const App = () => {
           <Projects />
           <Skills />
           <Tools />
-          <Contact />
-          {/* <Footer /> */}
+          {/* <Contact /> */}
+          <Footer />
         </Stack>
       </ThemeProvider>
     </>

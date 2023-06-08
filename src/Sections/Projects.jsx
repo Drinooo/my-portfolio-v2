@@ -60,7 +60,7 @@ export const Projects = () => {
             <Tabs
               value={value}
               onChange={handleChange}
-              variant="scrollable"
+              variant="fullWidth"
               scrollButtons={false}
               aria-label="basic tabs example"
               textColor="secondary"

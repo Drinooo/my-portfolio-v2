@@ -57,3 +57,11 @@ export const ContactTypo = ({ variant, children, color }) => {
     </ThemeProvider>
   );
 };
+
+export const FooterTypo = ({ variant, children, color }) => {
+  return (
+    <ThemeProvider theme={theme}>
+      <Typography variant={variant} color={color}>{children}</Typography>
+    </ThemeProvider>
+  );
+};

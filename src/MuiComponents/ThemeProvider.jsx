@@ -90,7 +90,7 @@ export const theme = createTheme({
       fontSize: "24px",
       fontStyle: "normal",
       fontWeight: 400,
-      lineHeight: "36px",
+      lineHeight: "150%",
       color: '#FFF'
     },
     body2: {
@@ -105,7 +105,6 @@ export const theme = createTheme({
       fontSize: "20px",
       fontStyle: "normal",
       fontWeight: 500,
-      lineHeight: "24px",
       textTransform: "uppercase",
     },
   },

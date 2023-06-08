@@ -12,7 +12,7 @@ export const theme = createTheme({
       main: "#D6412B",
       light: "#D6412B",
       dark: "#D6412B",
-      contrastText: "#D6412B",
+      contrastText: "#FFF",
     },
     tertiary: {
       main: "#FFF",
@@ -29,7 +29,11 @@ export const theme = createTheme({
       fontWeight: 600,
       lineHeight: "90px",
       textTransform: "uppercase",
-      color: '#FFF'
+      color: '#FFF',
+      "@media (max-width:600px)": {
+        fontSize: '50px',
+        lineHeight: '75px'
+      }
     },
     h2: {
       fontFamily: 'Barlow, sans-serif',
@@ -38,7 +42,11 @@ export const theme = createTheme({
       fontWeight: 600,
       lineHeight: "78px",
       textTransform: "uppercase",
-      color: '#FFF'
+      color: '#FFF',
+      "@media (max-width:600px)": {
+        fontSize: '45px',
+        lineHeight: '67.5px'
+      }
     },
     h3: {
       fontFamily: 'Barlow, sans-serif',
@@ -46,7 +54,11 @@ export const theme = createTheme({
       fontStyle: "normal",
       fontWeight: 600,
       lineHeight: "42px",
-      color: '#FFF'
+      color: '#FFF',
+      "@media (max-width:600px)": {
+        fontSize: '20px',
+        lineHeight: '30px'
+      }
     },
     h4: {
       fontFamily: 'Barlow, sans-serif',
@@ -54,7 +66,11 @@ export const theme = createTheme({
       fontStyle: "normal",
       fontWeight: 700,
       lineHeight: "130%",
-      color: '#FFF'
+      color: '#FFF',
+      "@media (max-width:600px)": {
+        fontSize: '21px',
+        lineHeight: '31.5px'
+      }
     },
     h5: {
       fontFamily: 'Barlow, sans-serif',
@@ -63,7 +79,11 @@ export const theme = createTheme({
       fontWeight: 600,
       lineHeight: "36px",
       textTransform: "uppercase",
-      color: '#FFF'
+      color: '#FFF',
+      "@media (max-width:600px)": {
+        fontSize: '20px',
+        lineHeight: '30px'
+      }
     },
     h6: {
       fontFamily: 'Barlow, sans-serif',
@@ -71,13 +91,21 @@ export const theme = createTheme({
       fontStyle: "normal",
       fontWeight: 700,
       lineHeight: "240%",
-      color: '#FFF'
+      color: '#FFF',
+      "@media (max-width:600px)": {
+        fontSize: '19px',
+        lineHeight: '28.5px'
+      }
     },
     subtitle1: {
       fontFamily: 'Barlow, sans-serif',
       fontSize: "22px",
       fontStyle: "normal",
       fontWeight: 700,
+      "@media (max-width:600px)": {
+        fontSize: '20px',
+        lineHeight: '30px'
+      }
     },
     subtitle2: {
       fontFamily: 'Barlow, sans-serif',
@@ -91,7 +119,11 @@ export const theme = createTheme({
       fontStyle: "normal",
       fontWeight: 400,
       lineHeight: "150%",
-      color: '#FFF'
+      color: '#FFF',
+      "@media (max-width:600px)": {
+        fontSize: '20px',
+        lineHeight: '30px'
+      }
     },
     body2: {
       fontFamily: 'Barlow, sans-serif',
@@ -99,6 +131,10 @@ export const theme = createTheme({
       fontStyle: "normal",
       fontWeight: 400,
       lineHeight: "150%",
+      "@media (max-width:600px)": {
+        fontSize: '16px',
+        lineHeight: '22.5px'
+      }
     },
     button: {
       fontFamily: 'Barlow, sans-serif',
@@ -106,6 +142,10 @@ export const theme = createTheme({
       fontStyle: "normal",
       fontWeight: 500,
       textTransform: "uppercase",
+      "@media (max-width:600px)": {
+        fontSize: '15px',
+        lineHeight: '22.5px'
+      }
     },
   },
 });

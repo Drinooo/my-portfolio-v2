@@ -11,7 +11,8 @@ export const CustButton = ({variant}) => {
           color='tertiary'
           sx={{
             padding: '20px 40px',
-            borderRadius: '10px'
+            borderRadius: '10px',
+            '@media (max-width:600px)': { fontSize: '15px', padding: '10px 20px' }
           }}
         >
             Download CV

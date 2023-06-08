@@ -16,3 +16,13 @@ body {
   font-size: 20px;
   font-weight: 700;
 }
+
+@media (max-width:1169px) {
+  .vertical-timeline-element-date::after{
+    color: rgb(255, 255, 255);
+  }
+
+  .vertical-timeline-element-date{
+    color: rgb(0, 0, 0);
+  }
+}

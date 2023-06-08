@@ -13,8 +13,12 @@ export const Hero = () => {
           flexDirection: "column",
           alignItems: "center",
           backgroundImage: `url(Hero%20Section.png)`,
-          backgroundRepeat: "no-repeat",
+          height: '100vh',
+          backgroundPosition: "center",
           backgroundSize: "cover",
+          '@media (max-width:600px)': {
+            backgroundImage: `url(Mobile%20Hero%20Section.png)`,
+          },
         }}
       >
         <Box

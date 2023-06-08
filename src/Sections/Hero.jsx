@@ -40,7 +40,11 @@ export const Hero = () => {
             <HeroTypo variant={"h5"} color={"black"}>
               <Typewriter
                 options={{
-                  strings: ['Web Designer', 'UI/UX Designer', 'Front End Developer'],
+                  strings: [
+                    "Web Designer",
+                    "UI/UX Designer",
+                    "Front End Developer",
+                  ],
                   autoStart: true,
                   loop: true,
                 }}
@@ -48,8 +52,14 @@ export const Hero = () => {
             </HeroTypo>
           </Paper>
         </Box>
-        <img href="hero image.png" alt="" srcset="" />
-        <img src="hero image.png" alt="" srcset="" />
+        <img
+          href="hero image.png"
+          style={{ maxWidth: "100%", height: "auto" }}
+        />
+        <img
+          src="hero image.png"
+          style={{ maxWidth: "100%", height: "auto" }}
+        />
       </Container>
     </>
   );

@@ -27,78 +27,78 @@ export const Tools = () => {
       <span>My </span><span style={{ color: '#D6412B' }}>Tech Stack</span>
       </ToolsTypo>
       <Box sx={{ flexGrow: 1 }}>
-        <Grid container spacing={'20px'} columns={16} rowSpacing={'20px'}>
-          <Grid item xs={4}>
+        <Grid container spacing={'20px'} columns={16} rowSpacing={'20px'} justifyContent={"center"}>
+          <Grid item xs={12} sm={6} md={4}>
             <Item>
               <HTMLIcon />
             </Item>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Item>
               <CSSIcon />
             </Item>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Item>
               <JavaScriptIcon />
             </Item>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Item>
               <BootstrapIcon />
             </Item>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Item>
               <ReactIcon />
             </Item>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Item>
               <ViteIcon />
             </Item>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Item>
               <IonicIcon />
             </Item>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Item>
               <MUIIcon />
             </Item>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={12} sm={6} md={4}>
           <Item>
             <GithubIcon />
           </Item>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={6} md={4}>
           <Item>
            <FigmaIcon />
           </Item>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={6} md={4}>
           <Item>
             <XDIcon />
           </Item>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={6} md={4}>
           <Item>
             <PhotoshopIcon />
           </Item>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={6} md={4}>
           <Item>
            <IllustratorIcon />
           </Item>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={6} md={4}>
           <Item>
             <CanvaIcon />
           </Item>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={6} md={4}>
           <Item>
             <VSCodeIcon />
           </Item>

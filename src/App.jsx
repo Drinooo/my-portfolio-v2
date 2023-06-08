@@ -31,7 +31,7 @@ const App = () => {
           <Skills />
           <Tools />
           <Contact />
-          <Footer />
+          {/* <Footer /> */}
         </Stack>
       </ThemeProvider>
     </>

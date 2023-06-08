@@ -6,27 +6,28 @@ import { CustButton } from "../MuiComponents/Button";
 export const About = () => {
   return (
     <Container maxWidth="xl">
-      <Box
-        sx={{
-          flexGrow: 1,
-        }}
-      >
+      <Box sx={{ flexGrow: 1 }}>
         <Grid
           container
-          columns={16}
+          spacing={{ xs: 2, md: 3 }}
+          columns={{ xs: 4, sm: 8, md: 12 }}
           sx={{
-            display: "flex",
-            flexDirection: "row",
             alignItems: "center",
           }}
         >
-          <Grid item xs={8}>
-            <img href="about image.png" alt="" srcset="" />
-            <img src="about image.png" alt="" srcset="" />
+          <Grid item xs={12} sm={8} md={6}>
+            <img
+              href="about image.png"
+              style={{ maxWidth: "100%", height: "auto" }}
+            />
+            <img
+              src="about image.png"
+              style={{ maxWidth: "100%", height: "auto" }}
+            />
           </Grid>
           <Grid
             item
-            xs={8}
+            xs
             sx={{
               display: "flex",
               flexDirection: "column",

@@ -15,7 +15,7 @@ import {
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
   ...theme.typography.body2,
-  padding: theme.spacing('30px'),
+  padding: theme.spacing("30px"),
   textAlign: "left",
   color: theme.palette.text.secondary,
   background:
@@ -28,18 +28,28 @@ const Item = styled(Paper)(({ theme }) => ({
 export const Skills = () => {
   return (
     <Container maxWidth="xl">
-      <Stack gap={"60px"} alignItems={'center'}>
+      <Stack gap={"60px"} alignItems={"center"}>
         <SkillsTypo variant={"h2"}>
           <span>My </span>
           <span style={{ color: "#D6412B" }}>Skills</span>
         </SkillsTypo>
+
         <Box sx={{ flexGrow: 1 }}>
-          <Grid container spacing={"20px"} columns={16} rowSpacing={"20px"}>
-            <Grid item xs={8}>
+          <Grid
+            container
+            spacing={{ xs: 2, md: 3 }}
+            columns={{ xs: 4, sm: 8, md: 12 }}
+            justifyContent={"center"}
+          >
+            <Grid item xs={12} sm={8} md={6}>
               <Item>
                 <Box sx={{ flexGrow: 1 }}>
-                  <Grid container spacing={2} columns={16}>
-                    <Grid item xs={2}>
+                  <Grid
+                    container
+                    spacing={{ xs: 2, md: 3 }}
+                    columns={{ xs: 4, sm: 8, md: 12 }}
+                  >
+                    <Grid item xs={2} sm={2} md={2}>
                       <WebIcon />
                     </Grid>
                     <Grid item xs>
@@ -56,31 +66,15 @@ export const Skills = () => {
               </Item>
             </Grid>
 
-            <Grid item xs={8}>
+            <Grid item xs={12} sm={8} md={6}>
               <Item>
                 <Box sx={{ flexGrow: 1 }}>
-                  <Grid container spacing={2} columns={16}>
-                    <Grid item xs={2}>
-                      <UIUXIcon />
-                    </Grid>
-                    <Grid item xs>
-                      <SkillsTypo variant={"h5"}>UI/UX Design</SkillsTypo>
-                      <SkillsTypo variant={"body2"} color={"white"}>
-                        Proficient in Figma and Adobe XD for creating engaging
-                        and user-centric UI/UX designs. Able to create prototypes and to communicate design concepts. Stay up-to-date with the
-                        latest UI/UX design trends and best practices.
-                      </SkillsTypo>
-                    </Grid>
-                  </Grid>
-                </Box>
-              </Item>
-            </Grid>
-
-            <Grid item xs={8}>
-              <Item>
-                <Box sx={{ flexGrow: 1 }}>
-                  <Grid container spacing={2} columns={16}>
-                    <Grid item xs={2}>
+                  <Grid
+                    container
+                    spacing={{ xs: 2, md: 3 }}
+                    columns={{ xs: 4, sm: 8, md: 12 }}
+                  >
+                    <Grid item xs={2} sm={2} md={2}>
                       <GraphicIcon />
                     </Grid>
                     <Grid item xs>
@@ -97,14 +91,44 @@ export const Skills = () => {
               </Item>
             </Grid>
 
-            <Grid item xs={8}>
+            <Grid item xs={12} sm={8} md={6}>
               <Item>
                 <Box sx={{ flexGrow: 1 }}>
-                  <Grid container spacing={2} columns={16}>
-                    <Grid item xs={2}>
-                      <WebDevIcon />
+                  <Grid
+                    container
+                    spacing={{ xs: 2, md: 3 }}
+                    columns={{ xs: 4, sm: 8, md: 12 }}
+                  >
+                    <Grid item xs={2} sm={2} md={2}>
+                      <UIUXIcon />
                     </Grid>
                     <Grid item xs>
+                      <SkillsTypo variant={"h5"}>UI/UX Design</SkillsTypo>
+                      <SkillsTypo variant={"body2"} color={"white"}>
+                        Proficient in Figma and Adobe XD for creating engaging
+                        and user-centric UI/UX designs. Able to create
+                        prototypes and to communicate design concepts. Stay
+                        up-to-date with the latest UI/UX design trends and best
+                        practices.
+                      </SkillsTypo>
+                    </Grid>
+                  </Grid>
+                </Box>
+              </Item>
+            </Grid>
+
+            <Grid item xs={12} sm={8} md={6}>
+              <Item>
+                <Box sx={{ flexGrow: 1 }}>
+                  <Grid
+                    container
+                    spacing={{ xs: 2, md: 3 }}
+                    columns={{ xs: 4, sm: 8, md: 12 }}
+                  >
+                    <Grid item xs={2} sm={2} md={2}>
+                      <WebDevIcon />
+                    </Grid>
+                    <Grid item xs={4} sm={6} md={8}>
                       <SkillsTypo variant={"h5"}>Web Development</SkillsTypo>
                       <SkillsTypo variant={"body2"} color={"white"}>
                         Proficient in web development languages such as HTML,

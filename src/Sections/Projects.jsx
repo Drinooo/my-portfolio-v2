@@ -5,7 +5,7 @@ import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import { CustGrid } from "../MuiComponents/Grid";
-import { Container, Stack } from "@mui/material";
+import { Card, CardContent, Container, Stack, makeStyles, styled } from "@mui/material";
 import { ProjectsTypo } from "../MuiComponents/Typography";
 import { theme } from "../MuiComponents/ThemeProvider";
 
@@ -62,8 +62,6 @@ export const Projects = () => {
                 value={value}
                 onChange={handleChange}
                 variant="fullWidth"
-                scrollButtons={false}
-                aria-label="basic tabs example"
                 textColor="secondary"
                 indicatorColor="secondary"
                 centered

@@ -110,7 +110,7 @@ export const Skills = () => {
                         <SkillsTypo variant={"body2"} color={"white"}>
                           Proficient in Figma and Adobe XD for creating engaging
                           and user-centric UI/UX designs. Able to create
-                          prototypes and to communicate design concepts. Stay
+                          prototypes to communicate design concepts. Stay
                           up-to-date with the latest UI/UX design trends and
                           best practices.
                         </SkillsTypo>
@@ -131,7 +131,7 @@ export const Skills = () => {
                       <Grid item xs={2} sm={2} md={2}>
                         <WebDevIcon />
                       </Grid>
-                      <Grid item xs={4} sm={6} md={8}>
+                      <Grid item xs>
                         <SkillsTypo variant={"h5"}>Web Development</SkillsTypo>
                         <SkillsTypo variant={"body2"} color={"white"}>
                           Proficient in web development languages such as HTML,

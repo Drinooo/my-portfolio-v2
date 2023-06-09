@@ -40,6 +40,11 @@ const projects = [
     image: "TB_MSAR.png",
     description: "Landing Page",
   },
+  {
+    title: "Platter n Boe",
+    image: "TB_PNB.png",
+    description: "Landing Page",
+  },
 ];
 
 export const CustGrid = () => {
@@ -66,10 +71,6 @@ export const CustGrid = () => {
                 image={project.image}
                 alt={project.title}
               />
-              {/* <CardContent>
-                <ProjectsTypo variant={"h5"}>{project.title}</ProjectsTypo>
-                <ProjectsTypo variant={"body2"} color={'white'}>{project.description}</ProjectsTypo>
-              </CardContent> */}
               </CardActionArea>
             </Card>
           </Grid>

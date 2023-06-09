@@ -4,10 +4,11 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import { CustGrid } from "../MuiComponents/Grid";
+import { CustGrid } from "../MuiComponents/WebDesign";
 import { Card, CardContent, Container, Stack, makeStyles, styled } from "@mui/material";
 import { ProjectsTypo } from "../MuiComponents/Typography";
 import { theme } from "../MuiComponents/ThemeProvider";
+import { UXDesign } from "../MuiComponents/UI/UXDesign";
 
 const TabPanel = (props) => {
   const { children, value, index, ...other } = props;
@@ -76,7 +77,7 @@ export const Projects = () => {
               <CustGrid />
             </TabPanel>
             <TabPanel value={value} index={1}>
-              UI/UX Design
+              <UXDesign />
             </TabPanel>
             <TabPanel value={value} index={2}>
               Graphic Design

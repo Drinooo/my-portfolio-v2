@@ -12,32 +12,32 @@ const projects = [
   },
   {
     title: "Superare",
-    image: "src/assets/TB_Superare.png",
+    image: "TB_Superare.png",
     description: "Landing Page",
   },
   {
     title: "Recozy ",
-    image: "src/assets/TB_Recozy.png",
+    image: "TB_Recozy.png",
     description: "Landing Page",
   },
   {
     title: "Numa",
-    image: "src/assets/TB_Numa.png",
+    image: "TB_Numa.png",
     description: "Landing Page",
   },
   {
     title: "Happy Wally",
-    image: "src/assets/TB_HappyWally.png",
+    image: "TB_HappyWally.png",
     description: "Landing Page",
   },
   {
     title: "Socal Ponds",
-    image: "src/assets/TB_SocalPonds.png",
+    image: "TB_SocalPonds.png",
     description: "Landing Page",
   },
   {
     title: "Montrose Search and Rescue",
-    image: "src/assets/TB_MSAR.png",
+    image: "TB_MSAR.png",
     description: "Landing Page",
   },
 ];

@@ -12,7 +12,7 @@ const pages = ["Home", "About", "Projects", "Skills", "Contact"];
 export const Footer = () => {
   return (
     <>
-      <Box sx={{ borderTop: '2px solid white' }}>
+      <Box sx={{ borderTop: "2px solid white" }}>
         <CTA />
         <Box sx={{ padding: "0px" }}>
           <Grid container justifyContent="center" alignItems="center">
@@ -41,16 +41,19 @@ export const Footer = () => {
             </Grid>
             <Grid item xs>
               <Box sx={{ textAlign: "center" }}>
-                <IconButton aria-label="Facebook">
+                <IconButton aria-label="Facebook" href="">
                   <FacebookIcon color="tertiary" />
                 </IconButton>
-                <IconButton aria-label="Twitter">
+                <IconButton aria-label="Twitter" href="">
                   <InstagramIcon color="tertiary" />
                 </IconButton>
-                <IconButton aria-label="Instagram">
+                <IconButton aria-label="Instagram" href="">
                   <TwitterIcon color="tertiary" />
                 </IconButton>
-                <IconButton aria-label="Instagram">
+                <IconButton
+                  aria-label="LinkedIn"
+                  href="https://www.linkedin.com/in/aldrin-villalobos-a59785242/"
+                >
                   <LinkedInIcon color="tertiary" />
                 </IconButton>
               </Box>

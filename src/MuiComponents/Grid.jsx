@@ -7,7 +7,7 @@ import { ProjectsTypo } from "./Typography";
 const projects = [
   {
     title: "Hypeburger",
-    image: "src/assets/TB_Hypeburger.png",
+    image: "TB_Hypeburger.png",
     description: "Web Design, Landing Page",
   },
   {

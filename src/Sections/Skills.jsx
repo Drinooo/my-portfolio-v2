@@ -50,7 +50,7 @@ export const Skills = () => {
                       spacing={{ xs: 2, md: 3 }}
                       columns={{ xs: 4, sm: 8, md: 12 }}
                     >
-                      <Grid item xs={2} sm={2} md={2}>
+                      <Grid item xs={12} sm={2} md={2}>
                         <WebIcon />
                       </Grid>
                       <Grid item xs>
@@ -77,7 +77,7 @@ export const Skills = () => {
                       spacing={{ xs: 2, md: 3 }}
                       columns={{ xs: 4, sm: 8, md: 12 }}
                     >
-                      <Grid item xs={2} sm={2} md={2}>
+                      <Grid item xs={12} sm={2} md={2}>
                         <GraphicIcon />
                       </Grid>
                       <Grid item xs>
@@ -102,7 +102,7 @@ export const Skills = () => {
                       spacing={{ xs: 2, md: 3 }}
                       columns={{ xs: 4, sm: 8, md: 12 }}
                     >
-                      <Grid item xs={2} sm={2} md={2}>
+                      <Grid item xs={12} sm={2} md={2}>
                         <UIUXIcon />
                       </Grid>
                       <Grid item xs>
@@ -128,7 +128,7 @@ export const Skills = () => {
                       spacing={{ xs: 2, md: 3 }}
                       columns={{ xs: 4, sm: 8, md: 12 }}
                     >
-                      <Grid item xs={2} sm={2} md={2}>
+                      <Grid item xs={12} sm={2} md={2}>
                         <WebDevIcon />
                       </Grid>
                       <Grid item xs>

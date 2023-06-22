@@ -36,7 +36,7 @@ export const Footer = () => {
                 >
                   Aldrin Villalobos. I built this website using Material UI and React JS
                 </Link>
-                {new Date().getFullYear()}{" "}
+                {/* {new Date().getFullYear()}{" "} */}
               </Typography>
             </Grid>
             <Grid item xs>

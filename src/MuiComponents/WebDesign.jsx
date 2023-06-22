@@ -82,7 +82,7 @@ export const CustGrid = () => {
         columns={{ xs: 4, sm: 8, md: 12 }}
       >
         {projects.map((project, index) => (
-          <Grid item xs={2} sm={4} md={4}>
+          <Grid item xs={12} sm={4} md={4}>
             <Card
               key={index}
               sx={{

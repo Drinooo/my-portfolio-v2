@@ -34,7 +34,7 @@ export const Footer = () => {
                   color="inherit"
                   underline="none"
                 >
-                  Aldrin Villalobos. All Rights Reserved
+                  Aldrin Villalobos. I built this website using Material UI and React JS
                 </Link>
                 {new Date().getFullYear()}{" "}
               </Typography>

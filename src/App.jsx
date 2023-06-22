@@ -1,10 +1,4 @@
-import {
-  Box,
-  Container,
-  CssBaseline,
-  Stack,
-  ThemeProvider,
-} from "@mui/material";
+import { CssBaseline, Stack, ThemeProvider } from "@mui/material";
 import "./App.css";
 import { CustAppBar } from "./MuiComponents/AppBar";
 import { Hero } from "./Sections/Hero";
@@ -13,10 +7,9 @@ import { Work } from "./Sections/Work";
 import { Projects } from "./Sections/Projects";
 import { Skills } from "./Sections/Skills";
 import { Tools } from "./Sections/Tools";
-import { Contact } from "./Sections/Contact";
 import { theme } from "./MuiComponents/ThemeProvider";
 import { Footer } from "./Sections/Footer";
-import CTA from "./MuiComponents/CTA";
+import { Superare } from "./Pages/Superare";
 
 const App = () => {
   return (
@@ -31,7 +24,6 @@ const App = () => {
           <Projects />
           <Skills />
           <Tools />
-          {/* <Contact /> */}
           <Footer />
         </Stack>
       </ThemeProvider>

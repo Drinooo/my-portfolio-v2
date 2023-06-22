@@ -8,7 +8,7 @@ import { CustGrid } from "../MuiComponents/WebDesign";
 import { Card, CardContent, Container, Stack, makeStyles, styled } from "@mui/material";
 import { ProjectsTypo } from "../MuiComponents/Typography";
 import { theme } from "../MuiComponents/ThemeProvider";
-import { UXDesign } from "../MuiComponents/UI/UXDesign";
+import { UXDesign } from "../MuiComponents/UXDesign";
 
 const TabPanel = (props) => {
   const { children, value, index, ...other } = props;

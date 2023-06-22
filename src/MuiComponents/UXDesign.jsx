@@ -1,21 +1,25 @@
 import { Box, Card, CardActionArea, CardMedia, Grid } from "@mui/material";
 import React from "react";
+import { Superare } from "../Pages/Superare";
 
 const projects = [
   {
     title: "My Allied Health Academy",
     image: "TB_MAHA.png",
     description: "UI/UX Design",
+    href: ""
   },
   {
     title: "Her Erotic Story",
     image: "TB_HES.png",
     description: "UI/UX Design",
+    href: ""
   },
   {
     title: "TribeTXT Rooms",
     image: "TB_TribeTXT.png",
     description: "UI/UX Design",
+    href: "https://tribetxt.com/"
   },
 ];
 

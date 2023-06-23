@@ -10,6 +10,8 @@ import { Tools } from "./Sections/Tools";
 import { theme } from "./MuiComponents/ThemeProvider";
 import { Footer } from "./Sections/Footer";
 import { Superare } from "./Pages/Superare";
+import { Route, Routes } from "react-router-dom";
+import { MainRoutes } from "./MainRoutes";
 
 const App = () => {
   return (
@@ -18,12 +20,7 @@ const App = () => {
         <CssBaseline />
         <Stack gap={"150px"}>
           <CustAppBar />
-          <Hero />
-          <About />
-          <Work />
-          <Projects />
-          <Skills />
-          <Tools />
+          <MainRoutes />
           <Footer />
         </Stack>
       </ThemeProvider>

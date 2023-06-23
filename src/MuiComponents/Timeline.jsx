@@ -42,6 +42,7 @@ export const CustTimeline = () => {
           Web Designer, UI/UX Designer, Front End Developer
         </WorkTypo>
       </VerticalTimelineElement>
+      
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{
@@ -70,6 +71,7 @@ export const CustTimeline = () => {
         </WorkTypo>
         <WorkTypo variant={"body2"}>Data Entry, Quality Assurance</WorkTypo>
       </VerticalTimelineElement>
+
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="2020 - 2022"
@@ -98,6 +100,7 @@ export const CustTimeline = () => {
         </WorkTypo>
         <WorkTypo variant={"body2"}>Graphic Designer</WorkTypo>
       </VerticalTimelineElement>
+
       <VerticalTimelineElement
         className="vertical-timeline-element--education"
         contentStyle={{

@@ -5,12 +5,7 @@ import { experimentalStyled as styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
-import {
-  GraphicIcon,
-  UIUXIcon,
-  WebDevIcon,
-  WebIcon,
-} from "../MuiComponents/Icons";
+import { skills } from "../assets/contents";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -42,108 +37,31 @@ export const Skills = () => {
               columns={{ xs: 4, sm: 8, md: 12 }}
               justifyContent={"center"}
             >
-              <Grid item xs={12} sm={8} md={6}>
-                <Item>
-                  <Box sx={{ flexGrow: 1 }}>
-                    <Grid
-                      container
-                      spacing={{ xs: 2, md: 3 }}
-                      columns={{ xs: 4, sm: 8, md: 12 }}
-                    >
-                      <Grid item xs={12} sm={2} md={2}>
-                        <WebIcon />
+              {skills.map((item) => (
+                <Grid item xs={12} sm={8} md={6}>
+                  <Item>
+                    <Box sx={{ flexGrow: 1 }}>
+                      <Grid
+                        container
+                        spacing={{ xs: 2, md: 3 }}
+                        columns={{ xs: 4, sm: 8, md: 12 }}
+                      >
+                        <Grid item xs={12} sm={2} md={2}>
+                          {item.icon}
+                        </Grid>
+                        <Grid item xs>
+                          <SkillsTypo variant={"h5"}>
+                            {item.title}
+                          </SkillsTypo>
+                          <SkillsTypo variant={"body2"} color={"white"}>
+                            {item.desc}
+                          </SkillsTypo>
+                        </Grid>
                       </Grid>
-                      <Grid item xs>
-                        <SkillsTypo variant={"h5"}>
-                          Web/Mobile Design
-                        </SkillsTypo>
-                        <SkillsTypo variant={"body2"} color={"white"}>
-                          Proficient in Figma and Adobe XD for creating visually
-                          appealing and user-friendly website designs.
-                          Knowledgeable in designing responsive web interfaces
-                          that adapt to different screen sizes and devices.
-                        </SkillsTypo>
-                      </Grid>
-                    </Grid>
-                  </Box>
-                </Item>
-              </Grid>
-
-              <Grid item xs={12} sm={8} md={6}>
-                <Item>
-                  <Box sx={{ flexGrow: 1 }}>
-                    <Grid
-                      container
-                      spacing={{ xs: 2, md: 3 }}
-                      columns={{ xs: 4, sm: 8, md: 12 }}
-                    >
-                      <Grid item xs={12} sm={2} md={2}>
-                        <GraphicIcon />
-                      </Grid>
-                      <Grid item xs>
-                        <SkillsTypo variant={"h5"}>Graphic Design</SkillsTypo>
-                        <SkillsTypo variant={"body2"} color={"white"}>
-                          Proficient in Adobe Photoshop, Illustrator, and Canva
-                          for creating visually stunning graphics. Able to
-                          translate client requirements and brand guidelines
-                          into compelling visual designs.
-                        </SkillsTypo>
-                      </Grid>
-                    </Grid>
-                  </Box>
-                </Item>
-              </Grid>
-
-              <Grid item xs={12} sm={8} md={6}>
-                <Item>
-                  <Box sx={{ flexGrow: 1 }}>
-                    <Grid
-                      container
-                      spacing={{ xs: 2, md: 3 }}
-                      columns={{ xs: 4, sm: 8, md: 12 }}
-                    >
-                      <Grid item xs={12} sm={2} md={2}>
-                        <UIUXIcon />
-                      </Grid>
-                      <Grid item xs>
-                        <SkillsTypo variant={"h5"}>UI/UX Design</SkillsTypo>
-                        <SkillsTypo variant={"body2"} color={"white"}>
-                          Proficient in Figma and Adobe XD for creating engaging
-                          and user-centric UI/UX designs. Able to create
-                          prototypes to communicate design concepts. Stay
-                          up-to-date with the latest UI/UX design trends and
-                          best practices.
-                        </SkillsTypo>
-                      </Grid>
-                    </Grid>
-                  </Box>
-                </Item>
-              </Grid>
-
-              <Grid item xs={12} sm={8} md={6}>
-                <Item>
-                  <Box sx={{ flexGrow: 1 }}>
-                    <Grid
-                      container
-                      spacing={{ xs: 2, md: 3 }}
-                      columns={{ xs: 4, sm: 8, md: 12 }}
-                    >
-                      <Grid item xs={12} sm={2} md={2}>
-                        <WebDevIcon />
-                      </Grid>
-                      <Grid item xs>
-                        <SkillsTypo variant={"h5"}>Web Development</SkillsTypo>
-                        <SkillsTypo variant={"body2"} color={"white"}>
-                          Proficient in web development languages such as HTML,
-                          CSS, and JavaScript. Skilled in building responsive
-                          and user-friendly websites that work across different
-                          browsers and devices.
-                        </SkillsTypo>
-                      </Grid>
-                    </Grid>
-                  </Box>
-                </Item>
-              </Grid>
+                    </Box>
+                  </Item>
+                </Grid>
+              ))}
             </Grid>
           </Box>
         </Stack>

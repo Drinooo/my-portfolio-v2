@@ -1,27 +1,11 @@
 import React from "react";
 import { ToolsTypo } from "../MuiComponents/Typography";
-import { Container, Stack } from "@mui/material";
+import { Container, Stack, Tooltip } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
-import {
-  BootstrapIcon,
-  CSSIcon,
-  CanvaIcon,
-  FigmaIcon,
-  GithubIcon,
-  HTMLIcon,
-  IllustratorIcon,
-  IonicIcon,
-  JavaScriptIcon,
-  MUIIcon,
-  PhotoshopIcon,
-  ReactIcon,
-  VSCodeIcon,
-  ViteIcon,
-  XDIcon,
-} from "../MuiComponents/Icons";
+import { tools } from "../assets/contents";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -38,7 +22,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export const Tools = () => {
   return (
-    <Box sx={{ borderTop: '2px solid white', paddingTop: '100px' }}>
+    <Box sx={{ borderTop: "2px solid white", paddingTop: "100px" }}>
       <Container maxWidth="xl">
         <Stack gap={"60px"} alignItems={"center"}>
           <ToolsTypo variant={"h2"}>
@@ -53,81 +37,15 @@ export const Tools = () => {
               rowSpacing={"20px"}
               justifyContent={"center"}
             >
-              <Grid item xs={12} sm={6} md={4}>
-                <Item>
-                  <HTMLIcon />
-                </Item>
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <Item>
-                  <CSSIcon />
-                </Item>
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <Item>
-                  <JavaScriptIcon />
-                </Item>
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <Item>
-                  <BootstrapIcon />
-                </Item>
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <Item>
-                  <ReactIcon />
-                </Item>
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <Item>
-                  <ViteIcon />
-                </Item>
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <Item>
-                  <IonicIcon />
-                </Item>
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <Item>
-                  <MUIIcon />
-                </Item>
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <Item>
-                  <GithubIcon />
-                </Item>
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <Item>
-                  <FigmaIcon />
-                </Item>
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <Item>
-                  <XDIcon />
-                </Item>
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <Item>
-                  <PhotoshopIcon />
-                </Item>
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <Item>
-                  <IllustratorIcon />
-                </Item>
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <Item>
-                  <CanvaIcon />
-                </Item>
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <Item>
-                  <VSCodeIcon />
-                </Item>
-              </Grid>
+              {tools.map((item) => (
+                <Grid item xs={12} sm={6} md={4}>
+                  <Tooltip title={item.title}>
+                    <Item>
+                      {item.icon}
+                    </Item>
+                  </Tooltip>
+                </Grid>
+              ))}
             </Grid>
           </Box>
         </Stack>

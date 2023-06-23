@@ -75,7 +75,7 @@ export const ContactTypo = ({ variant, children, color }) => {
 export const CTATypo = ({ variant, children, color }) => {
   return (
     <ThemeProvider theme={theme}>
-      <Typography variant={variant} color={color} sx={{ padding: '0px 0px 50px 0px' }}>
+      <Typography variant={variant} color={color} sx={{ padding: '0px 0px 0px 0px' }}>
         {children}
       </Typography>
     </ThemeProvider>

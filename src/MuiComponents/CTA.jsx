@@ -15,15 +15,16 @@ const CTA = () => {
       }}
     >
       <Container maxWidth="xl">
-        <Stack>
-          <CTATypo variant={"caption"}>Have a project in mind?</CTATypo>
+        <Stack spacing={5} mb={7}>
+          <CTATypo variant={"caption"}>
+            Do you have a project idea in mind?
+          </CTATypo>
           <CTATypo variant={"h2"}>
-            You’re one step closer to making an outstanding brand!
+            Ready to stand out in the digital world? Let's craft your unique
+            online presence!
           </CTATypo>
         </Stack>
-        <CTABtn variant="contained" color="primary" size="large">
-          Sign Up
-        </CTABtn>
+        <CTABtn variant="contained" color="primary" size="large" />
       </Container>
     </Box>
   );

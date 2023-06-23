@@ -2,6 +2,7 @@ import { Box, Container, Grid } from "@mui/material";
 import React from "react";
 import { AboutTypo } from "../MuiComponents/Typography";
 import { CustButton } from "../MuiComponents/Button";
+import LazyLoad from "react-lazyload";
 
 export const About = () => {
   return (

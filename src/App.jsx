@@ -25,14 +25,7 @@ const App = () => {
         <CssBaseline />
         <Stack gap={"150px"}>
           <CustAppBar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/Home" element={<Home />} />
-            <Route path="/About" element={<AboutPage />} />
-            <Route path="/Projects" element={<ProjectsPage />} />
-            <Route path="/Skills" element={<SkillsPage />} />
-            <Route path="/Contact" element={<ContactPage />} />
-          </Routes>
+          <MainRoutes />
           <Footer />
         </Stack>
       </ThemeProvider>

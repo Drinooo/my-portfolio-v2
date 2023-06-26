@@ -14,7 +14,7 @@ import PropTypes from "prop-types";
 import useScrollTrigger from "@mui/material/useScrollTrigger";
 import { Link } from "react-router-dom";
 
-const pages = ["Home", "About", "Projects", "Skills", "Contact"];
+const pages = ["Home", "About", "Projects", "Contact"];
 
 function ElevationScroll(props) {
   const { children, window } = props;

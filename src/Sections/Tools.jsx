@@ -1,6 +1,6 @@
 import React from "react";
 import { ToolsTypo } from "../MuiComponents/Typography";
-import { Container, Stack, Tooltip } from "@mui/material";
+import { Container, Stack, Tooltip, Zoom } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
@@ -41,7 +41,7 @@ export const Tools = () => {
             >
               {tools.map((item) => (
                 <Grid item xs={12} sm={6} md={2}>
-                  <Tooltip title={item.title}>
+                  <Tooltip TransitionComponent={Zoom} title={item.title}>
                     <Item>
                       {item.icon}
                     </Item>

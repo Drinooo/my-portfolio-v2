@@ -21,6 +21,20 @@ export const AboutPage = () => {
               alignItems: "center",
             }}
           >
+            <Grid item xs={12} sm={8} md={6}>
+              <img
+                href="img1.png"
+                style={{
+                  maxWidth: "100%",
+                  height: "auto",
+                  borderRadius: "10%",
+                }}
+              />
+              <img
+                src="img1.png"
+                style={{ maxWidth: "100%", height: "auto", borderRadius: "3%" }}
+              />
+            </Grid>
             <Grid
               item
               xs
@@ -47,16 +61,6 @@ export const AboutPage = () => {
                 clients, I share my projects frequently on Instagram.
               </AboutTypo>
               <CustButton variant={"contained"} />
-            </Grid>
-            <Grid item xs={12} sm={8} md={6}>
-            <img
-                href="img1.png"
-                style={{ maxWidth: "100%", height: "auto", borderRadius: "10%" }}
-              />
-              <img
-                src="img1.png"
-                style={{ maxWidth: "100%", height: "auto", borderRadius: "3%" }}
-              />
             </Grid>
           </Grid>
         </Box>

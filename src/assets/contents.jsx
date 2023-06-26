@@ -3,6 +3,7 @@ import { Hypeburger } from "../Pages/Hypeburger";
 import { Recozy } from "../Pages/Recozy";
 import { Superare } from "../Pages/Superare";
 
+
 export const wbProjects = [
   {
     title: "Hypeburger",

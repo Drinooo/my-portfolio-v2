@@ -49,13 +49,13 @@ export const AboutPage = () => {
               <CustButton variant={"contained"} />
             </Grid>
             <Grid item xs={12} sm={8} md={6}>
-              <img
-                href="about image.png"
-                style={{ maxWidth: "100%", height: "auto" }}
+            <img
+                href="img1.png"
+                style={{ maxWidth: "100%", height: "auto", borderRadius: "10%" }}
               />
               <img
-                src="about image.png"
-                style={{ maxWidth: "100%", height: "auto" }}
+                src="img1.png"
+                style={{ maxWidth: "100%", height: "auto", borderRadius: "3%" }}
               />
             </Grid>
           </Grid>

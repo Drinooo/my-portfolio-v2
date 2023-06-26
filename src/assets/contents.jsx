@@ -202,3 +202,38 @@ export const tools = [
     link: "https://code.visualstudio.com/"
   },
 ]
+
+export const clients = [
+  {
+    id: 1,
+    client: "TribeTXT",
+  },
+  {
+    id: 2,
+    client: "Share My Circle",
+  },
+  {
+    id: 3,
+    client: "Her Erotic Story",
+  },
+  {
+    id: 4,
+    client: "My Allied Health Academy",
+  },
+  {
+    id: 5,
+    client: "Numa Behaviour Health",
+  },
+  {
+    id: 6,
+    client: "Montrose Search and Rescue",
+  },
+  {
+    id: 7,
+    client: "New Media Services Recruitment",
+  },
+  {
+    id: 8,
+    client: "Go Ahead Eagles",
+  },
+]

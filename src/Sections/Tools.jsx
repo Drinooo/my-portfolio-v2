@@ -12,17 +12,19 @@ const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
   padding: theme.spacing(1),
   textAlign: "center",
-  color: theme.palette.text.secondary,
-  background:
-    "linear-gradient(96.26deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);",
-  border: "1px solid #FFF",
-  backdropFilter: "blur(20px)",
-  borderRadius: "10px",
+  // color: theme.palette.text.secondary,
+  // background:
+  //   "linear-gradient(96.26deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);",
+  // border: "1px solid #FFF",
+  // backdropFilter: "blur(20px)",
+  background: "transparent",
+  boxShadow: "none"
+  // borderRadius: "10px",
 }));
 
 export const Tools = () => {
   return (
-    <Box sx={{ borderTop: "2px solid white", paddingTop: "100px" }}>
+    <Box sx={{ borderTop: "2px solid white", paddingTop: "150px" }}>
       <Container maxWidth="xl">
         <Stack gap={"60px"} alignItems={"center"}>
           <ToolsTypo variant={"h2"}>
@@ -38,7 +40,7 @@ export const Tools = () => {
               justifyContent={"center"}
             >
               {tools.map((item) => (
-                <Grid item xs={12} sm={6} md={4}>
+                <Grid item xs={12} sm={6} md={2}>
                   <Tooltip title={item.title}>
                     <Item>
                       {item.icon}

@@ -50,7 +50,7 @@ export const Projects = () => {
     setValue(newValue);
   };
   return (
-    <Box sx={{ borderTop: "2px solid white", paddingTop: "150px" }}>
+    <Box sx={{ borderTop: "2px solid white", paddingTop: "150px", paddingBottom: "150px" }}>
       <Container maxWidth="xl">
         <Stack gap={"60px"} alignItems={"center"}>
           <ProjectsTypo variant={"h2"}>

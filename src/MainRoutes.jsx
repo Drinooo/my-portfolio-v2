@@ -6,6 +6,10 @@ import { ProjectsPage } from "./Pages/ProjectsPage";
 import { SkillsPage } from "./Pages/SkillsPage";
 import { ContactPage } from "./Pages/ContactPage";
 import { Home } from "./Pages/HomePage";
+import { Recozy } from "./Pages/Recozy";
+import { Hypeburger } from "./Pages/Hypeburger";
+import { Superare } from "./Pages/Superare";
+import { NumaPage } from "./Pages/NumaPage";
 
 export const MainRoutes = () => {
   return (
@@ -17,6 +21,10 @@ export const MainRoutes = () => {
         <Route path="/Projects" element={<ProjectsPage />} />
         <Route path="/Skills" element={<SkillsPage />} />
         <Route path="/Contact" element={<ContactPage />} />
+        <Route path="/Hypeburger" element={<Hypeburger />} />
+        <Route path="/Superare" element={<Superare />} />
+        <Route path="/Recozy" element={<Recozy />} />
+        <Route path="/Numa" element={<NumaPage />} />
       </Routes>
     </>
   );

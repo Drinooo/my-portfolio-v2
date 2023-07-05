@@ -16,6 +16,8 @@ export const Hero = () => {
           height: '100vh',
           backgroundPosition: "center",
           backgroundSize: "cover",
+          mt: "50px",
+          mb: "150px",
           '@media (max-width:600px)': {
             backgroundImage: `url(Mobile%20Hero%20Section.png)`,
           },

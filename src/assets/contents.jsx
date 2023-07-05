@@ -1,5 +1,6 @@
 import { BootstrapIcon, CSSIcon, CanvaIcon, FigmaIcon, GithubIcon, HTMLIcon, PhotoshopIcon, IllustratorIcon, IonicIcon, JavaScriptIcon, MUIIcon, ReactIcon, VSCodeIcon, ViteIcon, XDIcon, WebIcon, GraphicIcon, UIUXIcon, WebDevIcon } from "../MuiComponents/Icons";
 import { Hypeburger } from "../Pages/Hypeburger";
+import { NumaPage } from "../Pages/NumaPage";
 import { Recozy } from "../Pages/Recozy";
 import { Superare } from "../Pages/Superare";
 
@@ -10,28 +11,28 @@ export const wbProjects = [
     image: "TB_Hypeburger.png",
     description: "Web Design, Landing Page",
     link: <Hypeburger />,
-    path: "/hypeburger"
+    path: "/Hypeburger"
   },
   {
     title: "Superare",
     image: "TB_Superare.png",
     description: "Landing Page",
     link: <Superare />,
-    path: "/superare"
+    path: "/Superare"
   },
   {
     title: "Recozy ",
     image: "TB_Recozy.png",
     description: "Landing Page",
     link: <Recozy />,
-    path: "/recozy"
+    path: "/Recozy"
   },
   {
     title: "Numa",
     image: "TB_Numa.png",
     description: "Landing Page",
-    link: "",
-    path: "/numa"
+    link: <NumaPage />,
+    path: "/Numa"
   },
   {
     title: "Happy Wally",
@@ -236,5 +237,77 @@ export const clients = [
   {
     id: 8,
     client: "Go Ahead Eagles",
+  },
+]
+
+export const recozy = [
+  {
+    img: "/images/recozy1.png",
+  },
+  {
+    img: "/images/recozy2.png",
+  },
+  {
+    img: "/images/recozy3.png",
+  },
+  {
+    img: "/images/recozy4.png",
+  },
+]
+
+export const hypeburger = [
+  {
+    img: "/images/hypeburger1.png",
+  },
+  {
+    img: "/images/hypeburger2.png",
+  },
+  {
+    img: "/images/hypeburger3.png",
+  },
+  {
+    img: "/images/hypeburger4.png",
+  },
+  {
+    img: "/images/hypeburger5.png",
+  },
+]
+
+export const superare = [
+  {
+    img: "/images/superare1.png",
+  },
+  {
+    img: "/images/superare2.png",
+  },
+  {
+    img: "/images/superare3.png",
+  },
+  {
+    img: "/images/superare4.png",
+  },
+]
+
+export const numa = [
+  {
+    img: "/images/numa1.png",
+  },
+  {
+    img: "/images/numa2.png",
+  },
+  {
+    img: "/images/numa3.png",
+  },
+  {
+    img: "/images/numa4.png",
+  },
+  {
+    img: "/images/numa5.png",
+  },
+  {
+    img: "/images/numa6.png",
+  },
+  {
+    img: "/images/numa7.png",
   },
 ]

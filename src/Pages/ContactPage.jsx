@@ -1,16 +1,14 @@
 import React from "react";
 import { WIP } from "../Sections/WIP";
-import { Box, Container, Grid, IconButton, Input, Stack } from "@mui/material";
+import { Box, Container, Grid, IconButton, Stack } from "@mui/material";
 import { ContactTypo } from "../MuiComponents/Typography";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
-import PlaceIcon from "@mui/icons-material/Place";
 import PublicIcon from "@mui/icons-material/Public";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import { Email } from "@mui/icons-material";
 
 export const ContactPage = () => {
   return (
@@ -27,6 +25,7 @@ export const ContactPage = () => {
                   <ContactTypo variant={"body1"}>
                     villalobosaldrin18@gmail.com
                   </ContactTypo>
+                  
                 </Box>
 
                 <Box>
@@ -50,7 +49,7 @@ export const ContactPage = () => {
                     <IconButton aria-label="Instagram" href="">
                       <TwitterIcon color="tertiary" sx={{ fontSize: 30 }} />
                     </IconButton>
-                    <IconButton aria-label="Instagram" href="https://www.linkedin.com/in/aldrinvillalobos" target="blank">
+                    <IconButton aria-label="Instagram" href="https://www.linkedin.com/in/aldrinvillalobos">
                       <LinkedInIcon color="tertiary" sx={{ fontSize: 30 }} />
                     </IconButton>
                   </Stack>
@@ -59,9 +58,9 @@ export const ContactPage = () => {
             </Grid>
             <Grid item xs={8}>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123223.64233157509!2d120.03065244918226!3d15.172681532338636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3394299f173f92eb%3A0x3a664052e01dccdd!2sCabangan%2C%20Zambales!5e0!3m2!1sen!2sph!4v1687757029163!5m2!1sen!2sph"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4996.708455921817!2d120.05006255318935!3d15.162725465172542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33942d2e6f7e5b09%3A0x8a68d1796a2b7cb0!2sBARANGAY%20SAN%20ANTONIO%20AUDITORIUM!5e1!3m2!1sen!2sph!4v1687765058743!5m2!1sen!2sph"
                 width="100%"
-                height="450"
+                height="100%"
                 style={{ border: 0, borderRadius: "1%" }}
                 allowfullscreen=""
                 loading="lazy"

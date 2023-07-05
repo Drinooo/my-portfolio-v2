@@ -5,7 +5,7 @@ import { CustButton } from "../MuiComponents/Button";
 
 export const About = () => {
   return (
-    <Box sx={{ borderTop: "2px solid white", paddingTop: "150px" }}>
+    <Box sx={{ borderTop: "2px solid white", pt: "150px", pb: "150px" }}>
       <Container maxWidth="xl">
         <Box sx={{ flexGrow: 1 }}>
           <Grid

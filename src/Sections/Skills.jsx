@@ -22,7 +22,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export const Skills = () => {
   return (
-    <Box sx={{ borderTop: "2px solid white", paddingTop: "150px" }}>
+    <Box sx={{ borderTop: "2px solid white", paddingTop: "150px", paddingBottom: "150px" }}>
       <Container maxWidth="xl">
         <Stack gap={"60px"} alignItems={"center"}>
           <SkillsTypo variant={"h2"}>

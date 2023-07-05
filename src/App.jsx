@@ -23,7 +23,7 @@ const App = () => {
     <>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Stack gap={"150px"}>
+        <Stack>
           <CustAppBar />
           <MainRoutes />
           <Footer />

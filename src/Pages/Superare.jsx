@@ -23,7 +23,7 @@ export const Superare = () => {
         <ProjectsTypo variant="body1">
           This landing page is also developed using React JS and
           material-tailwind. You can check{" "}
-          <a href="#">
+          <a href="https://superare-landing-page.vercel.app/">
             <span color="primary">here</span>
           </a>{" "}
           for the live site.
